@@ -1,3 +1,36 @@
-# Título
+# Ex02 — Ordem e Caos
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod convallis magna ut pulvinar. Nulla iaculis, metus in semper vestibulum, lorem quam fringilla tellus, eu varius leo dui ac neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed faucibus ultrices ante, ut suscipit est euismod ut. Duis sit amet dictum turpis. Fusce non turpis porta nisi iaculis eleifend. Donec eget lobortis risus. Proin molestie tincidunt elit. Donec a enim ac neque tristique molestie. Sed nibh massa, dignissim at ipsum non, volutpat aliquam erat. Sed tincidunt quis urna a semper. Phasellus leo orci, imperdiet et ullamcorper non, finibus eu nunc. Duis vel ligula ac orci tincidunt aliquam. Suspendisse potenti. Sed congue lectus at aliquet cursus. 
+## Conceito
+
+Neste exercício, explorei a utilização de condicionais `if/else` em p5.js, através de uma composição visual interativa intitulada *Ordem e Caos*.
+
+A composição é constituída por uma grelha de círculos, utilizando uma paleta de cores entre o roxo e o amarelo. Procurei explorar a relação entre cor, dimensão, repetição e interação, criando uma composição que se transforma através do movimento e da ação do rato.
+
+## Condições utilizadas
+
+Utilizei duas estruturas condicionais `if/else`:
+
+- **Posição horizontal do rato (`mouseX`):** permite alterar uma característica da composição consoante a posição do rato no canvas.
+- **Estado do rato (`mouseIsPressed`):** quando o rato é pressionado, aparece um círculo amarelo com contorno roxo na posição do cursor. Quando deixa de ser pressionado, essa forma desaparece.
+
+Estas condições permitem que a composição reaja à interação do utilizador.
+
+## Exploração visual
+
+Para além das condicionais, explorei a mistura gradual de cores através da função `lerpColor()`, criando uma transição entre o roxo e o amarelo.
+
+Utilizei também a função `map()` para relacionar a posição horizontal do rato com o tamanho dos círculos, permitindo uma variação gradual entre dimensões pequenas e grandes.
+
+A repetição das formas através de ciclos `for` permitiu construir uma grelha regular, enquanto a interação introduz uma alteração temporária na composição.
+
+## Processo e utilização de inteligência artificial
+
+O desenvolvimento do exercício contou com o apoio do ChatGPT para compreender as condicionais `if/else`, explorar possibilidades visuais e auxiliar na estruturação do código.
+
+O código foi adaptado e testado no p5.js, procurando compreender o funcionamento das condições e das funções utilizadas.
+
+## Fontes
+
+- [p5.js — Referência oficial](https://p5js.org/reference/)
+- [Aula 3 — Design de Inovação: Condicionais if/else](https://hacktoimprove.com/classes/DesignDeInovacao/Sumarios/aula3/#condicionais-if-else)
+- [ChatGPT — OpenAI](https://chatgpt.com/), utilizado como apoio à aprendizagem e desenvolvimento do código.
