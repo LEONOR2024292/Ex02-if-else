@@ -31,8 +31,6 @@ O código foi adaptado e testado no p5.js, procurando compreender o funcionament
 
 ## Fontes
 
-- [p5.js — Referência oficial](https://p5js.org/reference/)
-- [p5.js — Condicionais if/else](https://p5js.org/tutorials/conditionals/)
 - [p5.js — map()](https://p5js.org/reference/p5/map/)
 - [p5.js — lerpColor()](https://p5js.org/reference/p5/lerpColor/)
 - [p5.js — mouseX](https://p5js.org/reference/p5/mouseX/)
